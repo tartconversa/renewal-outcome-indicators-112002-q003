@@ -1,0 +1,4 @@
+period,indicator_id,definition_version,facility_id,value,received_at,quality
+2026-06,I-01,v1,F-1,1,2026-07-03,complete
+2026-07,I-01,v2,F-1,1,2026-08-04,complete
+2026-07,I-01,v2,F-2,,2026-08-04,pending
