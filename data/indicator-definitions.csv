@@ -1,3 +1,4 @@
 indicator_id,version,unit,numerator,denominator,valid_from
 I-01,v1,percent,open_facilities,planned_facilities,2026-01-01
 I-01,v2,percent,operating_facilities,planned_facilities,2026-07-01
+I-02,v1,count,monthly_visits,facilities_with_complete_usage,2026-01-01

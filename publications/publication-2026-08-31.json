@@ -1,0 +1,3299 @@
+{
+  "manifest": {
+    "label": "2026-08月报（更正前快照）",
+    "as_of": "2026-08-31",
+    "indicator_versions": [
+      {
+        "indicator_id": "I-01",
+        "version": "v1",
+        "valid_from": "2026-01-01"
+      },
+      {
+        "indicator_id": "I-01",
+        "version": "v2",
+        "valid_from": "2026-07-01"
+      },
+      {
+        "indicator_id": "I-02",
+        "version": "v1",
+        "valid_from": "2026-01-01"
+      }
+    ],
+    "boundary_versions": [
+      {
+        "version": "B1",
+        "valid_from": "2026-01-01"
+      },
+      {
+        "version": "B2",
+        "valid_from": "2026-07-01"
+      }
+    ],
+    "input_fingerprints": [
+      {
+        "file": "boundary.csv",
+        "sha256": "0c590b5831147ccfd5b83889641f731b073b86a1d2e3cc3816863f16e8854e11",
+        "record_count": 6
+      },
+      {
+        "file": "indicator-definitions.csv",
+        "sha256": "94a525ced761d598cfdda3bebcf91f68ef0c31592f71056211cf9fe91b032fb2",
+        "record_count": 3
+      },
+      {
+        "file": "investments.csv",
+        "sha256": "2ffa5652238e884bede55edcddb01e3b3f025dc1712e56086546157b9d5a8d3c",
+        "record_count": 4
+      },
+      {
+        "file": "observations.csv",
+        "sha256": "330a7f845b4745acfed0830ba35f67c6427cc5133e53dc39e61fa5e45878f37e",
+        "record_count": 14
+      },
+      {
+        "file": "projects.csv",
+        "sha256": "98da6edb1fa2ac8656be8d50e9f3852161d289780d86f39dcee18f5dc066a04d",
+        "record_count": 3
+      },
+      {
+        "file": "targets.csv",
+        "sha256": "64a1fb6f5f7fc4fe17b23832afe488ba2fe2630e1f7261edaa1ba522c9296b6d",
+        "record_count": 6
+      }
+    ]
+  },
+  "periods": {
+    "2026-05": {
+      "aggregates": [
+        {
+          "period": "2026-05",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "percent",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 33.33333333333333,
+          "numerator_value": 1.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 1.0,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 2,
+              "key": "I-01@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 4,
+              "key": "2026-05:I-01@v1:F-3"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 5,
+              "key": "2026-05:I-01@v1:F-1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 6,
+              "key": "2026-05:I-01@v1:F-2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 5,
+                "key": "2026-05:I-01@v1:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 6,
+                "key": "2026-05:I-01@v1:F-2"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 4,
+                "key": "2026-05:I-01@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "period": "2026-05",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "percent",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 33.33333333333333,
+          "numerator_value": 1.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 1.0,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 2,
+              "key": "I-01@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 4,
+              "key": "2026-05:I-01@v1:F-3"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 5,
+              "key": "2026-05:I-01@v1:F-1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 6,
+              "key": "2026-05:I-01@v1:F-2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 5,
+                "key": "2026-05:I-01@v1:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 6,
+                "key": "2026-05:I-01@v1:F-2"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 4,
+                "key": "2026-05:I-01@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "period": "2026-05",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-05",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        }
+      ],
+      "lineage": {
+        "I-01|North": {
+          "period": "2026-05",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 1.0,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": "observations.csv#L5(2026-05:I-01@v1:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": "observations.csv#L6(2026-05:I-01@v1:F-2)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L4(2026-05:I-01@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L2(I-01@v1)",
+            "observations.csv#L4(2026-05:I-01@v1:F-3)",
+            "observations.csv#L5(2026-05:I-01@v1:F-1)",
+            "observations.csv#L6(2026-05:I-01@v1:F-2)"
+          ]
+        },
+        "I-01|ALL": {
+          "period": "2026-05",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 1.0,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": "observations.csv#L5(2026-05:I-01@v1:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "observed",
+              "value": 0.0,
+              "quality": "complete",
+              "source": "observations.csv#L6(2026-05:I-01@v1:F-2)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L4(2026-05:I-01@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L2(I-01@v1)",
+            "observations.csv#L4(2026-05:I-01@v1:F-3)",
+            "observations.csv#L5(2026-05:I-01@v1:F-1)",
+            "observations.csv#L6(2026-05:I-01@v1:F-2)"
+          ]
+        },
+        "I-02|North": {
+          "period": "2026-05",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        },
+        "I-02|ALL": {
+          "period": "2026-05",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        }
+      }
+    },
+    "2026-06": {
+      "aggregates": [
+        {
+          "period": "2026-06",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "percent",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 33.33333333333333,
+          "numerator_value": 1.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 2,
+              "key": "I-01@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 7,
+              "key": "2026-06:I-01@v1:F-3"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 7,
+                "key": "2026-06:I-01@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "period": "2026-06",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "percent",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 33.33333333333333,
+          "numerator_value": 1.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 2,
+              "key": "I-01@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 7,
+              "key": "2026-06:I-01@v1:F-3"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 7,
+                "key": "2026-06:I-01@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "period": "2026-06",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": 60.0,
+          "numerator_value": 60.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 12,
+              "key": "2026-06:I-02@v1:F-3"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 60.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 12,
+                "key": "2026-06:I-02@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "period": "2026-06",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": 60.0,
+          "numerator_value": 60.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B1",
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 2,
+              "key": "B1:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 3,
+              "key": "B1:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 4,
+              "key": "B1:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 12,
+              "key": "2026-06:I-02@v1:F-3"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 60.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 12,
+                "key": "2026-06:I-02@v1:F-3"
+              },
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "lineage": {
+        "I-01|North": {
+          "period": "2026-06",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L7(2026-06:I-01@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L2(I-01@v1)",
+            "observations.csv#L7(2026-06:I-01@v1:F-3)"
+          ]
+        },
+        "I-01|ALL": {
+          "period": "2026-06",
+          "indicator_id": "I-01",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "open_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "not_applicable",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L7(2026-06:I-01@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L2(I-01@v1)",
+            "observations.csv#L7(2026-06:I-01@v1:F-3)"
+          ]
+        },
+        "I-02|North": {
+          "period": "2026-06",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 60.0,
+              "quality": "complete",
+              "source": "observations.csv#L12(2026-06:I-02@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)",
+            "observations.csv#L12(2026-06:I-02@v1:F-3)"
+          ]
+        },
+        "I-02|ALL": {
+          "period": "2026-06",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B1",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-3"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-1"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "observed",
+              "value": 60.0,
+              "quality": "complete",
+              "source": "observations.csv#L12(2026-06:I-02@v1:F-3)",
+              "reasons": []
+            }
+          ],
+          "sources": [
+            "boundary.csv#L2(B1:F-1)",
+            "boundary.csv#L3(B1:F-2)",
+            "boundary.csv#L4(B1:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)",
+            "observations.csv#L12(2026-06:I-02@v1:F-3)"
+          ]
+        }
+      }
+    },
+    "2026-07": {
+      "aggregates": [
+        {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "North",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 50.0,
+          "numerator_value": 1.0,
+          "denominator_value": 2.0,
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.5,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 8,
+              "key": "2026-07:I-01@v2:F-1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 8,
+                "key": "2026-07:I-01@v2:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "South",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 0.0,
+          "numerator_value": 0.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-2"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [
+            "F-2"
+          ],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "PENDING_OBSERVATION_EXCLUDED:F-2"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 9,
+              "key": "2026-07:I-01@v2:F-2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "pending",
+              "value": null,
+              "quality": "pending",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 9,
+                "key": "2026-07:I-01@v2:F-2"
+              },
+              "reasons": [
+                "观测质量为 pending，未确认"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "ALL",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 33.33333333333333,
+          "numerator_value": 1.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [
+            "F-2"
+          ],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "PENDING_OBSERVATION_EXCLUDED:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 8,
+              "key": "2026-07:I-01@v2:F-1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 9,
+              "key": "2026-07:I-01@v2:F-2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 8,
+                "key": "2026-07:I-01@v2:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "pending",
+              "value": null,
+              "quality": "pending",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 9,
+                "key": "2026-07:I-01@v2:F-2"
+              },
+              "reasons": [
+                "观测质量为 pending，未确认"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": 120.0,
+          "numerator_value": 120.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.5,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 13,
+              "key": "2026-07:I-02@v1:F-1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 120.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 13,
+                "key": "2026-07:I-02@v1:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "South",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-2"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": 120.0,
+          "numerator_value": 120.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            },
+            {
+              "file": "observations.csv",
+              "line_number": 13,
+              "key": "2026-07:I-02@v1:F-1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 120.0,
+              "quality": "complete",
+              "source": {
+                "file": "observations.csv",
+                "line_number": 13,
+                "key": "2026-07:I-02@v1:F-1"
+              },
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        }
+      ],
+      "lineage": {
+        "I-01|North": {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "North",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.5,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L8(2026-07:I-01@v2:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L3(I-01@v2)",
+            "observations.csv#L8(2026-07:I-01@v2:F-1)"
+          ]
+        },
+        "I-01|South": {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "South",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-2"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [
+            "F-2"
+          ],
+          "missing_facilities": [],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "PENDING_OBSERVATION_EXCLUDED:F-2"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "pending",
+              "value": null,
+              "quality": "pending",
+              "source": "observations.csv#L9(2026-07:I-01@v2:F-2)",
+              "reasons": [
+                "观测质量为 pending，未确认"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "indicator-definitions.csv#L3(I-01@v2)",
+            "observations.csv#L9(2026-07:I-01@v2:F-2)"
+          ]
+        },
+        "I-01|ALL": {
+          "period": "2026-07",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "ALL",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [
+            "F-2"
+          ],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "PENDING_OBSERVATION_EXCLUDED:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 1.0,
+              "quality": "complete",
+              "source": "observations.csv#L8(2026-07:I-01@v2:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "pending",
+              "value": null,
+              "quality": "pending",
+              "source": "observations.csv#L9(2026-07:I-01@v2:F-2)",
+              "reasons": [
+                "观测质量为 pending，未确认"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L3(I-01@v2)",
+            "observations.csv#L8(2026-07:I-01@v2:F-1)",
+            "observations.csv#L9(2026-07:I-01@v2:F-2)"
+          ]
+        },
+        "I-02|North": {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.5,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 120.0,
+              "quality": "complete",
+              "source": "observations.csv#L13(2026-07:I-02@v1:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)",
+            "observations.csv#L13(2026-07:I-02@v1:F-1)"
+          ]
+        },
+        "I-02|South": {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "South",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-2"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        },
+        "I-02|ALL": {
+          "period": "2026-07",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [
+            "F-1"
+          ],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.3333333333333333,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "REPORTED_BUT_FACILITY_IMMATURE:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "observed",
+              "value": 120.0,
+              "quality": "complete",
+              "source": "observations.csv#L13(2026-07:I-02@v1:F-1)",
+              "reasons": []
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)",
+            "observations.csv#L13(2026-07:I-02@v1:F-1)"
+          ]
+        }
+      }
+    },
+    "2026-08": {
+      "aggregates": [
+        {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "North",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 0.0,
+          "numerator_value": 0.0,
+          "denominator_value": 2.0,
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "South",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 0.0,
+          "numerator_value": 0.0,
+          "denominator_value": 1.0,
+          "scope_facilities": [
+            "F-2"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-2"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "ALL",
+          "unit": "percent",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "value": 0.0,
+          "numerator_value": 0.0,
+          "denominator_value": 3.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "ACCEPTED_BUT_NOT_OPEN:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 3,
+              "key": "I-01@v2"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "South",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-2"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-2"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "unit": "count",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "value": null,
+          "numerator_value": 0.0,
+          "denominator_value": 0.0,
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "boundary_version": "B2",
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "ACCEPTED_BUT_NOT_OPEN:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "sources": [
+            {
+              "file": "boundary.csv",
+              "line_number": 5,
+              "key": "B2:F-2"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 6,
+              "key": "B2:F-1"
+            },
+            {
+              "file": "boundary.csv",
+              "line_number": 7,
+              "key": "B2:F-3"
+            },
+            {
+              "file": "indicator-definitions.csv",
+              "line_number": 4,
+              "key": "I-02@v1"
+            }
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ]
+        }
+      ],
+      "lineage": {
+        "I-01|North": {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "North",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L3(I-01@v2)"
+          ]
+        },
+        "I-01|South": {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "South",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-2"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-2"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "indicator-definitions.csv#L3(I-01@v2)"
+          ]
+        },
+        "I-01|ALL": {
+          "period": "2026-08",
+          "indicator_id": "I-01",
+          "definition_version": "v2",
+          "district": "ALL",
+          "numerator_concept": "operating_facilities",
+          "denominator_concept": "planned_facilities",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "ACCEPTED_BUT_NOT_OPEN:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L3(I-01@v2)"
+          ]
+        },
+        "I-02|North": {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "North",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        },
+        "I-02|South": {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "South",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-2"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-2"
+          ],
+          "immature_facilities": [],
+          "coverage_ratio": 0.0,
+          "maturity": "mature",
+          "evidence_flags": [
+            "ACCEPTED_BUT_NOT_OPEN:F-2"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        },
+        "I-02|ALL": {
+          "period": "2026-08",
+          "indicator_id": "I-02",
+          "definition_version": "v1",
+          "district": "ALL",
+          "numerator_concept": "monthly_visits",
+          "denominator_concept": "facilities_with_complete_usage",
+          "boundary_version": "B2",
+          "scope_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "observed_facilities": [],
+          "pending_facilities": [],
+          "missing_facilities": [
+            "F-1",
+            "F-2",
+            "F-3"
+          ],
+          "immature_facilities": [
+            "F-1"
+          ],
+          "coverage_ratio": 0.0,
+          "maturity": "contains_immature",
+          "evidence_flags": [
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-1",
+            "ACCEPTED_BUT_NOT_OPEN:F-2",
+            "OPEN_FACILITY_WITHOUT_OBSERVATION:F-3"
+          ],
+          "facility_cells": [
+            {
+              "facility_id": "F-1",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-2",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            },
+            {
+              "facility_id": "F-3",
+              "status": "missing",
+              "value": null,
+              "quality": null,
+              "source": null,
+              "reasons": [
+                "期间内无任何观测记录"
+              ]
+            }
+          ],
+          "sources": [
+            "boundary.csv#L5(B2:F-2)",
+            "boundary.csv#L6(B2:F-1)",
+            "boundary.csv#L7(B2:F-3)",
+            "indicator-definitions.csv#L4(I-02@v1)"
+          ]
+        }
+      }
+    }
+  },
+  "target_evaluations": [
+    {
+      "target_id": "T-1",
+      "status": "BELOW_TARGET",
+      "status_label": "未达目标",
+      "actual": 33.33333333333333,
+      "reasons": [
+        "实际 33.3% < 目标 50.0"
+      ]
+    },
+    {
+      "target_id": "T-2",
+      "status": "INCOMPATIBLE_CALIBER",
+      "status_label": "数据口径不兼容",
+      "actual": null,
+      "reasons": [
+        "目标按 I-01@v1 下达，期间 2026-07 生效口径为 I-01@v2，口径断裂且未提供同口径回溯重算"
+      ]
+    },
+    {
+      "target_id": "T-3",
+      "status": "MET",
+      "status_label": "已达目标",
+      "actual": 33.33333333333333,
+      "reasons": [
+        "实际 33.3% >= 目标 30.0"
+      ]
+    },
+    {
+      "target_id": "T-4",
+      "status": "BELOW_TARGET",
+      "status_label": "未达目标",
+      "actual": 60.0,
+      "reasons": [
+        "实际 60 < 目标 200.0"
+      ]
+    },
+    {
+      "target_id": "T-5",
+      "status": "NOT_JUDGEABLE",
+      "status_label": "尚不可判断",
+      "actual": 120.0,
+      "reasons": [
+        "含未成熟设施，结果尚不稳定: F-1"
+      ]
+    },
+    {
+      "target_id": "T-6",
+      "status": "NOT_JUDGEABLE",
+      "status_label": "尚不可判断",
+      "actual": 120.0,
+      "reasons": [
+        "含未成熟设施，结果尚不稳定: F-1"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "changed_period": "2026-07",
+      "indicator": "I-02@v1",
+      "facility_id": "F-1",
+      "superseded_value": 120.0,
+      "new_value": 135.0,
+      "received_at": "2026-09-02"
+    }
+  ],
+  "chain_view": [
+    {
+      "period": "2026-03",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": 300000.0,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-03",
+      "district": "North",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    },
+    {
+      "period": "2026-03",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-04",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-04",
+      "district": "North",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    },
+    {
+      "period": "2026-04",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-05",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 1,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-05",
+      "district": "North",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    },
+    {
+      "period": "2026-05",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": 800000.0,
+      "accepted_facilities": 1,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-06",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 1,
+      "mature_facilities": 1,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-06",
+      "district": "North",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    },
+    {
+      "period": "2026-06",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-07",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 1,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-07",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": 200000.0,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 1,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-07",
+      "district": "South",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 0,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    },
+    {
+      "period": "2026-08",
+      "district": "North",
+      "project_type": "clinic",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 1,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 4,
+          "key": "P-3"
+        }
+      ]
+    },
+    {
+      "period": "2026-08",
+      "district": "North",
+      "project_type": "eldercare",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 1,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 2,
+          "key": "P-1"
+        }
+      ]
+    },
+    {
+      "period": "2026-08",
+      "district": "South",
+      "project_type": "community_center",
+      "investment_cny": null,
+      "accepted_facilities": 1,
+      "open_facilities": 0,
+      "operating_facilities": 0,
+      "mature_facilities": 0,
+      "facility_count": 1,
+      "sources": [
+        {
+          "file": "projects.csv",
+          "line_number": 3,
+          "key": "P-2"
+        }
+      ]
+    }
+  ]
+}

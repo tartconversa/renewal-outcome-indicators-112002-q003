@@ -1,4 +1,15 @@
 period,indicator_id,definition_version,facility_id,value,received_at,quality
-2026-06,I-01,v1,F-1,1,2026-07-03,complete
+2026-03,I-01,v1,F-3,1,2026-04-02,complete
+2026-04,I-01,v1,F-3,1,2026-04-02,complete
+2026-05,I-01,v1,F-3,1,2026-06-03,complete
+2026-05,I-01,v1,F-1,0,2026-06-03,complete
+2026-05,I-01,v1,F-2,0,2026-06-03,complete
+2026-06,I-01,v1,F-3,1,2026-07-03,complete
 2026-07,I-01,v2,F-1,1,2026-08-04,complete
 2026-07,I-01,v2,F-2,,2026-08-04,pending
+2026-08,I-01,v2,F-1,1,2026-09-03,complete
+2026-08,I-01,v2,F-2,,2026-09-03,pending
+2026-06,I-02,v1,F-3,60,2026-07-03,complete
+2026-07,I-02,v1,F-1,120,2026-08-04,complete
+2026-07,I-02,v1,F-1,135,2026-09-02,corrected
+2026-08,I-02,v1,F-1,150,2026-09-03,complete

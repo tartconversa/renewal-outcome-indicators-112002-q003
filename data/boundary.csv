@@ -1,4 +1,7 @@
-version,district,facility_id,valid_from
-B1,North,F-1,2026-01-01
-B1,North,F-2,2026-01-01
-B2,South,F-2,2026-07-01
+version,district,facility_id,valid_from,note
+B1,North,F-1,2026-01-01,
+B1,North,F-2,2026-01-01,
+B1,North,F-3,2026-01-01,
+B2,South,F-2,2026-07-01,
+B2,North,F-1,2026-07-01,
+B2,North,F-3,2026-07-01,merged into F-1
